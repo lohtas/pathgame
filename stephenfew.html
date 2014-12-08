@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Stephen Few - Information Visualization Skills Badge Game</title>
+  <meta name="Lorena Saria-Huertas" content="">
+  <meta name="description" content="">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+<div class="container">
+
+<div class="title">
+<h1>Stephen Few's Step-By-Step Graph Selection and Design Process</h1>
+</div><!--title-->
+
+<div class="maincontent">
+    <h3>1. Determine your message and identify the data necessary to communicate it.</h3>
+<br>
+    <h3>2. Determine if a table, graph, or combination of both is needed to communicate your message.</h3>
+<br>
+    <h3>3. Determine the best means to encode the values.</h3><p>(See table below.)</p>
+<br>   
+    <h3>4. Determine where to display each variable.</h3>
+<br>
+    <h3>5. Determine the best design for the remaining objects.</h3>
+<br>    
+    <h3>6. Determine if particular data should be featured above the rest, and if so, how.</h3>
+<br>
+
+<h4>The best means for encoding values.</h4>
+
+
+<table style="width:100%">
+<tr>
+ 	<td>Relationship Type</td>
+ 	<td>Definition</td>
+ 	<td>Potential Encoding Methods</td>
+</tr>
+
+<tr>
+	<td>Nominal Comparison</td>
+ 	<td>No particular relationship between the values exist.Nominal categories are simply compared.</td>
+ 	<td>--Bars (horizontal or vertical) --Points (if the quantitative scale does not include zero)</td>
+ </tr>
+ 
+<tr>
+	<td>Time-Series</td>
+ 	<td>Quantitative values are expressed as a series of measures taken across equal intervals of time. Reveal trends and patterns.</td>
+ 	<td>--Lines to emphasize the overall shape of the data --Bars to emphasize and support comparisons between individual values --Points connected by lines to slightly emphasize individual values while still highlighting the overall shape of the data</td>
+ </tr>
+
+
+<tr>
+	<td>Ranking</td>
+ 	<td>Quantitative values are sequenced by size</td>
+ 	<td>--Bars (horizontal or vertical) --Points (if the quantitative scale does not include zero)</td>
+ </tr>
+
+<tr>
+	<td>Part-to-Whole</td>
+ 	<td>Quantitative values are displayed to reveal the portion that each value represents to some whole</td>
+ 	<td>--Bars (horizontal or vertical) Note: Pie charts are commonly used to display part-to-whole relationships, but they don’t work nearly as well as bar graphs because it is much harder to compare the sizes of slices than the length of bars. --Use stacked bars only when you must display measures of the whole as well as the parts</td>
+ </tr>
+
+<tr>
+	<td>Deviation</td>
+ 	<td>Quantitative values are displayed to feature how one or more sets of values differ from some reference set of values</td>
+ 	<td>--Lines to emphasize the overall shape of the data (only when displaying deviation and time-series relationships together) --Points connected by lines to slightly emphasize individual data points while also high- lighting the overall shape (only when displaying deviation and time-series relationships together)</td>
+ </tr>
+
+<tr>
+	<td>Frequency Distribution</td>
+ 	<td>how a set of quantitative values are spread across their entire range</td>
+ 	<td>--Bars (vertical only) to emphasize individual values
+Note: This kind of graph is called a histogram
+--Lines to emphasize the overall shape of the data
+Note: This kind of graph is called a frequency polygon.</td>
+ </tr>
+
+<tr>
+	<td>Correlation</td>
+ 	<td>When pairs of quantitative values, each measuring something different about an entity, are displayed to reveal if there is significant relationship between them.</td>
+ 	<td>--Points and a trend line in the form of a scatter plot</td>
+ </tr>
+ </table>
+ <br>
+ <br>
+</div><!--maincontent-->
+
+<a href="index.html"><img class="displayed" src="../badgegame/images/home_button.png" alt="To homepage" height="45"></a> 
+<br>
+ Read Few's entire white paper here: <a href="http://www.perceptualedge.com/articles/Whitepapers/Communicating_Numbers.pdf">Effectively Communicating Numbers: Selecting the Best Means and Manner of Display</a>
+</div><!--container-->
+
+</body>
+</html>
